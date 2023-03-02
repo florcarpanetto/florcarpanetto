@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "site": "florcarpanetto",
     "public": "dist",
+    "site": "florcarpanetto",
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -62,6 +62,10 @@ h2 {
   .contactContainer {
     width: 30vw;
     margin-left: 5%;
+    transition-property: opacity;
+    transition-duration: 4s;
+    transition-delay: 0.5s;
+    opacity: 1;
   }
 
   .logoSocialMedia {
