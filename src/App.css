@@ -50,6 +50,10 @@ h2 {
   width: 20vw;
   opacity: 70%;
   margin-left: 20vw;
+  transition-property: opacity;
+  transition-duration: 4s;
+  transition-delay: 1s;
+  opacity: 1;
 }
 
 .logoSocialMedia {
@@ -62,10 +66,7 @@ h2 {
   .contactContainer {
     width: 30vw;
     margin-left: 5%;
-    transition-property: opacity;
-    transition-duration: 4s;
-    transition-delay: 0.5s;
-    opacity: 1;
+
   }
 
   .logoSocialMedia {

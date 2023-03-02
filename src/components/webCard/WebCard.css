@@ -11,7 +11,7 @@
     margin: 10px;
     transition-property: opacity;
     transition-duration: 4s;
-    transition-delay: 0.5s;
+    transition-delay: 1s;
     opacity: 1;
 
 }
