@@ -6,7 +6,7 @@ import logo from './assets/logo-color.png';
 import hotelScreen from './assets/screenshot_hotels.jpeg';
 import podcastScreen from './assets/screenshot_podcast.jpeg';
 import tecnoScreen from './assets/tecnoScreen.png';
-import whatsappLogo from './assets/whatsapp.png';
+import instLogo from './assets/instagram.png';
 import githubLogo from './assets/github.png';
 import mailtoLogo from './assets/mailto.png';
 import liknedinLogo from './assets/linkedin.png';
@@ -52,13 +52,13 @@ function App() {
 
           <div className='contactContainer'>
             <motion.a
-              href='https://wa.me/543516618383'
+              href='https://www.instagram.com/florcarpanetto/'
               target='_blank'
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 2 }}
             >
-              <img src={whatsappLogo} className='logoSocialMedia' alt='logo' />
+              <img src={instLogo} className='logoSocialMedia' alt='logo instagram' />
             </motion.a>
             <motion.a
               href='https://www.linkedin.com/in/florcarpanetto'
@@ -67,7 +67,7 @@ function App() {
               animate={{ opacity: 1 }}
               transition={{ duration: 2 }}
             >
-              <img src={liknedinLogo} className='logoSocialMedia' alt='logo' />
+              <img src={liknedinLogo} className='logoSocialMedia' alt='logo linkedin' />
             </motion.a>
             <motion.a
               href='https://github.com/florcarpanetto'
@@ -76,7 +76,7 @@ function App() {
               animate={{ opacity: 1 }}
               transition={{ duration: 2 }}
             >
-              <img src={githubLogo} className='logoSocialMedia' alt='logo' />
+              <img src={githubLogo} className='logoSocialMedia' alt='logo git hub' />
             </motion.a>
             <motion.a
               href='mailto:florcarpanetto@gmail.com'
@@ -85,7 +85,7 @@ function App() {
               animate={{ opacity: 1 }}
               transition={{ duration: 2 }}
             >
-              <img src={mailtoLogo} className='logoSocialMedia' alt='logo' />
+              <img src={mailtoLogo} className='logoSocialMedia' alt='logo mail' />
             </motion.a>
           </div>
         </div>
