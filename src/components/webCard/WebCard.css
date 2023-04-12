@@ -64,7 +64,7 @@ a {
     }
 
     .card-container {
-        width: 38vw;
+        width: 70%;
         margin: 5px;
     }
     .card-container:hover {
@@ -72,10 +72,14 @@ a {
         transition-duration: 0.25s;
         background-color: rgb(241, 241, 241);
         margin:7px;
-        
       }
-
     h2 {
         font-size: 24px;
     }
+   .card-bottom-image {
+    width: 20px;
+   }
+   .screenshot {
+    width: 50vw;
+   }
 }

@@ -75,13 +75,14 @@ h2 {
 
 @media screen and (max-width: 768px) {
   .contactContainer {
-    width: 30vw;
+    width: 35vw;
     margin-left: 5%;
 
   }
 
   .logoSocialMedia {
     margin-top: 20%;
+   
   }
 
   .background-image {
